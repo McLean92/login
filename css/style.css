@@ -1,0 +1,157 @@
+/* CSS file */
+
+body {
+	background-color: black; 
+	height: 500px;
+	
+
+}
+
+.container {
+	margin-top: 50px;
+
+}
+
+
+/* LOGOUT PAGE START */
+
+.logoutBox {
+	background-color: white; 
+}
+
+
+
+/* LOGOUT PAGE END */
+
+
+/* LOGIN + REGISTER PAGES START */
+
+.form_head {
+	height: 100px;
+	background-color: #4eb08d;
+}
+
+.headline {
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	font-size: 50px;
+	font-family: helvetica;
+	padding-top: 25px;
+}
+
+.img {
+	height: 400px;
+	background-image: url('/semester/cloginsystem/images/image2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.form_body {
+	padding-top: 50px;
+	height: 400px;
+
+
+}
+
+.form_footer {
+	background-color: #4eb08d;
+	height: 35px; 
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	font-family: helvetica;
+	padding-top: 10px;
+}
+
+.form_footer a:hover {
+	color: orange;
+}
+
+a {
+	color: white;
+}
+
+
+input {
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.submit {
+	margin-top: 50px;
+	padding: 10px 0px;
+	border-radius: 10px;
+	border-style: none;
+	background-color: #4eb08d;
+	color: white;
+	font-size: 15px;
+	font-family: helvetica;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background-color: #588f8b;
+	color: orange;
+}
+
+.usernamefail {
+	padding-top: 30px;
+	font-family: helvetica; 
+	color: red;
+}
+
+
+.signup {
+	color: white;
+	text-align: center; 
+	margin-top: 40px;
+	font-family: helvetica;
+}
+
+.signup a:hover {
+	color: orange;
+}
+
+.userAdded {
+	padding-top: 30px;
+	font-family: helvetica; 
+	color: blue;
+}
+
+
+/* LOGIN + REGISTER PAGES END */
+
+
+
+/* The landingpage START */
+
+
+.visible {
+	color: white;
+	text-align: center;
+}
+
+.invisible {
+	color: white;
+	background-color: #4eb08d;
+	margin-top: 50px;
+	padding: 25px 25px 0px 25px;
+	font-family: helvetica;
+	font-size: 1.2em;
+}
+
+.logout {
+	font-family: helvetica; 
+	margin-bottom: 50px;
+}
+
+.logout:hover {
+	color: orange;
+	font-family: helvetica; 
+}
+
+
+/* The landingpage END */
+
