@@ -1,14 +1,6 @@
 <?php 
 // forbindelse til mySQL server med mysqli metoden
 
-// 1. Konstanter til forbindelsesdata TIL localhost 
-
-const HOSTNAME  = 'mysql34.unoeuro.com'; // servernavn 
-const MYSQLUSER  = 'charmaine_dk'; // super bruger (remote har man særskilte database brugere)
-const MYSQLPASS  = 'kwathabisile'; // bruger password
-const MYSQLDB  = 'charmaine_dk_db'; // database navn 
-
-/*
 Min lokale forbindelse: 
 
 const HOSTNAME  = 'localhost'; // servernavn 
